@@ -1,5 +1,5 @@
 # This is a clone of google cartographer, I modified some parameters to work with my robot.
-## if you fin this repo you should have a look at this repo:
+## if you find this repo you should have a look at this:
 https://github.com/poplop03/robot1 
 ## Some of the information you should know about this repo:
 - This repo is used to do SLAM with cartographer algorithm.
