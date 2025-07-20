@@ -24,7 +24,7 @@ https://github.com/poplop03/robot1
 - num_subdivisions_per_laser_scan
 
 ### 2D map result:
-![2D map](/docs/pics/map2D.png)
+![2D map](/docs/pics/carto_0.2_word.png)
 ### 3D map result:
 ![3D map 1](/docs/pics/map3D_1.png)
 ![3D map 2](/docs/pics/map3D_2.png)
