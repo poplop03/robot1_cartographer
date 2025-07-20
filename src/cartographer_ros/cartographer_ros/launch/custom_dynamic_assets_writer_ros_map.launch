@@ -1,0 +1,16 @@
+
+<launch>
+  <arg name="urdf_filename" default="$(find cartographer_ros)/urdf/robot_description_v5.urdf"/>
+  <arg name="bag_filenames" default="/home/duc/carto/bags/slam1/2025-05-26-16-41-09.bag"/>
+  <arg name="pose_graph_filename" default="/home/duc/carto/bags/slam1/2025-05-26-16-41-09.bag.pbstream"/>
+
+  <node name="cartographer_assets_writer" pkg="cartographer_ros" required="true"
+      type="cartographer_assets_writer" args="
+          -configuration_directory $(find cartographer_ros)/configuration_files
+          -configuration_basename assets_writer_ros_map.lua
+          -urdf_filename $(arg urdf_filename)
+          -bag_filenames $(arg bag_filenames)
+          -pose_graph_filename $(arg pose_graph_filename)"
+      output="screen">
+  </node>
+</launch>
