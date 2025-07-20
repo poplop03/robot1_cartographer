@@ -1,4 +1,4 @@
-# This is a clone of google cartographer, I modified some parameters to work with my robot.
+# This is a clone of google cartographer, I modified some parameters to work with my robot (cartographer ROS1 noetic).
 ## if you find this repo you should have a look at this:
 https://github.com/poplop03/robot1 
 ## Some of the information you should know about this repo:
